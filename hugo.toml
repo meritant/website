@@ -1,3 +1,30 @@
-baseURL = 'https://example.org/'
+baseURL = 'http://example.com'  # Will change to your domain later
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Your Name - Software Developer'
+disableKinds = ["taxonomy", "taxonomyTerm", "section", "page"]
+
+[params]
+  description = "Java Software Developer Portfolio"
+  author = "Aleksander Claney"
+  # Social links
+  github = "https://github.com/meritant"
+  linkedin = "www.linkedin.com/in/aleks-claney"
+  email = "aleksclaney@gmail.com"
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "#about"
+    weight = 1
+  [[menu.main]]
+    name = "Portfolio"
+    url = "#portfolio"
+    weight = 2
+  [[menu.main]]
+    name = "Experience"
+    url = "#experience"
+    weight = 3
+  [[menu.main]]
+    name = "Contact"
+    url = "#contact"
+    weight = 4
