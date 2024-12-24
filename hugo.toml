@@ -23,6 +23,11 @@ disableKinds = ["taxonomy", "term", "section", "page"]
       "When I'm not coding, you can find me contributing to open-source projects, attending tech meetups, or learning new technologies."
     ]
 
+  [css]
+  [css.PostCSS]
+    config = "postcss.config.js"
+
+
 [menu]
   [[menu.main]]
     name = "About"

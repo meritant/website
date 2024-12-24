@@ -3,8 +3,11 @@
 <title>{{ .Site.Title }}</title>
 <meta name="description" content="{{ .Site.Params.description }}">
 
-{{ $styles := resources.Get "css/main.css" | postCSS }}
+{{ $css := resources.Get "css/main.css" }}
+{{ $css = $css | css.PostCSS }}
+
 {{ if hugo.IsProduction }}
-    {{ $styles = $styles | minify }}
+  {{ $css = $css | minify | fingerprint | resources.PostProcess }}
 {{ end }}
-<link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
