@@ -1,15 +1,27 @@
-baseURL = 'http://example.com'  # Will change to your domain later
+baseURL = 'http://example.com'
 languageCode = 'en-us'
 title = 'Your Name - Software Developer'
-disableKinds = ["taxonomy", "taxonomyTerm", "section", "page"]
+disableKinds = ["taxonomy", "term", "section", "page"]
 
 [params]
-  description = "Java Software Developer Portfolio"
   author = "Aleksander Claney"
-  # Social links
+  description = "Java Software Developer"
+  resume_url = "/resume.pdf"  # PDF resume file path
   github = "https://github.com/meritant"
   linkedin = "www.linkedin.com/in/aleks-claney"
   email = "aleksclaney@gmail.com"
+
+  [params.hero]
+    title = "Hello, I'm Aleks"
+    subtitle = "Junior Software Developer focused on creating elegant solutions through clean, efficient code"
+    description = "Currently building web applications with modern technologies"
+
+  [params.about]
+    image = "/images/about.jpg"  # Will fallback to placeholder if not found
+    paragraphs = [
+      "I'm a junior developer with a strong foundation in web development and a passion for creating clean, efficient code. Currently focused on front-end development with React and exploring back-end technologies.",
+      "When I'm not coding, you can find me contributing to open-source projects, attending tech meetups, or learning new technologies."
+    ]
 
 [menu]
   [[menu.main]]
