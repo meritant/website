@@ -1,0 +1,14 @@
+projects:
+  - title: "E-commerce Dashboard"
+    description: "A responsive dashboard built with React and TailwindCSS"
+    technologies: ["React", "Tailwind"]
+    image: "project1.jpg"
+    demo_url: "https://demo1.example.com"
+    github_url: "https://github.com/yourusername/project1"
+    
+  - title: "Weather App"
+    description: "Real-time weather application using OpenWeather API"
+    technologies: ["JavaScript", "API"]
+    image: "project2.jpg"
+    demo_url: "https://demo2.example.com"
+    github_url: "https://github.com/yourusername/project2"
