@@ -1,6 +1,6 @@
 baseURL = 'http://example.com'
 languageCode = 'en-us'
-title = 'Your Name - Software Developer'
+title = 'Aleksander Claney - Software Developer'
 disableKinds = ["taxonomy", "term", "section", "page"]
 
 [params]
@@ -12,15 +12,14 @@ disableKinds = ["taxonomy", "term", "section", "page"]
   email = "aleksclaney@gmail.com"
 
   [params.hero]
-    title = "Hello, I'm Aleks"
-    subtitle = "Junior Software Developer focused on creating elegant solutions through clean, efficient code"
+    title = "Aleksander Claney"
+    subtitle = "Software Developer"
     description = "Currently building web applications with modern technologies"
 
   [params.about]
     image = "/images/about.jpg"  # Will fallback to placeholder if not found
     paragraphs = [
-      "I'm a junior developer with a strong foundation in web development and a passion for creating clean, efficient code. Currently focused on front-end development with React and exploring back-end technologies.",
-      "When I'm not coding, you can find me contributing to open-source projects, attending tech meetups, or learning new technologies."
+      "Software developer passionate about building innovative solutions, currently making a transition from a 11-year career in transportation. During my time as a truck driver, I developed exceptional problem-solving, customer service, communication abilities, and a reputation for reliability – now complemented by programming expertise. Currently developing innovative software solutions that bridge technical requirements with practical business needs."
     ]
 
   [css]
