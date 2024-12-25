@@ -20,6 +20,8 @@
     <div class="max-w-5xl mx-auto px-4">
         <div class="flex justify-between items-center h-16">
             <a href="#" class="text-xl font-bold text-gray-800">Aleksander Claney</a>
+            
+            
             <div class="hidden md:flex space-x-8">
                 
                     <a href="#about" class="text-gray-600 hover:text-gray-800">About</a>
@@ -33,7 +35,7 @@
             </div>
             
             
-            <button class="md:hidden" id="mobile-menu-button">
+            <button class="md:hidden text-gray-600 hover:text-gray-800" id="mobile-menu-button" aria-label="Menu">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
                 </svg>
@@ -41,16 +43,16 @@
         </div>
         
         
-        <div class="md:hidden hidden" id="mobile-menu">
+        <div class="hidden md:hidden" id="mobile-menu">
             <div class="px-2 pt-2 pb-3 space-y-1">
                 
-                    <a href="#about" class="block px-3 py-2 text-gray-600 hover:text-gray-800">About</a>
+                    <a href="#about" class="block px-3 py-2 rounded-md text-gray-600 hover:text-gray-800 hover:bg-gray-50">About</a>
                 
-                    <a href="#portfolio" class="block px-3 py-2 text-gray-600 hover:text-gray-800">Portfolio</a>
+                    <a href="#portfolio" class="block px-3 py-2 rounded-md text-gray-600 hover:text-gray-800 hover:bg-gray-50">Portfolio</a>
                 
-                    <a href="#experience" class="block px-3 py-2 text-gray-600 hover:text-gray-800">Experience</a>
+                    <a href="#experience" class="block px-3 py-2 rounded-md text-gray-600 hover:text-gray-800 hover:bg-gray-50">Experience</a>
                 
-                    <a href="#contact" class="block px-3 py-2 text-gray-600 hover:text-gray-800">Contact</a>
+                    <a href="#contact" class="block px-3 py-2 rounded-md text-gray-600 hover:text-gray-800 hover:bg-gray-50">Contact</a>
                 
             </div>
         </div>
@@ -86,10 +88,10 @@
             </div>
             <div class="relative">
                 <div class="aspect-w-16 aspect-h-12">
-                    <img src="/images/about.jpg" 
+                    <img src="/images/laptop.gif" 
                          alt="About Me" 
                          class="rounded-lg shadow-lg object-cover"
-                         onerror="this.src='/images/laptop.gif'">
+                         onerror="this.src='/images/placeholder.jpeg'">
                 </div>
             </div>
         </div>
@@ -304,8 +306,13 @@
     <footer class="bg-gray-800 text-white py-8">
     <div class="max-w-5xl mx-auto px-4 text-center">
         <p class="mb-4">© 2024 Aleksander Claney. All rights reserved.</p>
-        <p class="text-gray-400">Built with ❤️ using Hugo</p>
     </div>
 </footer>
+
+    
+
+    
+    
+    <script src="/js/main.js"></script>
 </body>
 </html>

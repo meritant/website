@@ -17,7 +17,7 @@ disableKinds = ["taxonomy", "term", "section", "page"]
     description = "Currently building web applications with modern technologies"
 
   [params.about]
-    image = "/images/about.jpg"  # Will fallback to placeholder if not found
+    image = "/images/laptop.gif"  # Will fallback to placeholder if not found
     paragraphs = [
       "Software developer passionate about building innovative solutions, currently making a transition from a 11-year career in transportation. During my time as a truck driver, I developed exceptional problem-solving, customer service, communication abilities, and a reputation for reliability – now complemented by programming expertise. Currently developing innovative software solutions that bridge technical requirements with practical business needs."
     ]

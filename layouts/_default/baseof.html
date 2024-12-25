@@ -12,5 +12,13 @@
     </main>
 
     {{ partial "footer.html" . }}
+
+    <!-- JS for mobile menu and others -->
+
+    {{ $js := resources.Get "js/main.js" | js.Build }}
+    {{ if hugo.IsProduction }}
+        {{ $js = $js | minify | fingerprint }}
+    {{ end }}
+    <script src="{{ $js.RelPermalink }}"></script>
 </body>
 </html>
