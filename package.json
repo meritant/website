@@ -138,5 +138,13 @@
     "yaml": "^2.6.1",
     "yargs": "^17.7.2",
     "yargs-parser": "^21.1.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meritant/website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/meritant/website/issues"
+  },
+  "homepage": "https://github.com/meritant/website#readme"
 }
